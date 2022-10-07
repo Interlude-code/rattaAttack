@@ -35,14 +35,14 @@ const execute =async () =>{
             headers: {'Content-Type': 'application/x-www-form-urlencoded','Origin': 'https://ap2fws723gubed68wi3e2g38col3g86tdg.digital'},
             data
         }).then(function (response) {
-            console.log(response.status);
+            console.log("code Status",cresponse.status);
           }).catch(function (error) {
             console.error(error);
           });
 
           count += 1
 
-          console.log(count)
+          console.log("attacks count",count)
 
     }
 
